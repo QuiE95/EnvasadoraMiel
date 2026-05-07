@@ -214,6 +214,7 @@ void drawManualMenu() {
   display.display();
 }
 
+
 void drawList(const char* titulo, const MenuItem items[], int total, MenuState& st) {
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_LEFT);
